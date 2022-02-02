@@ -1,0 +1,23 @@
+nav{
+    position: relative;
+    top: 0;
+}
+nav ul {
+    flex-direction: column;
+}
+nav ul .navitem a {
+    margin: 12px;
+}
+nav::before{
+    height: 70px;
+}
+
+#home {
+    height: 377px;
+    margin: 23px;
+}
+#home::before {
+    content: "";
+    position: absolute;
+    height: 939px;
+}

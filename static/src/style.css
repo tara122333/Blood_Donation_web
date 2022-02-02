@@ -1,0 +1,644 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500&family=Lato:ital,wght@0,400;1,300&family=Open+Sans:wght@500&family=Roboto:ital@1&family=Ubuntu:wght@400;500;700&family=Varela+Round&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500&family=Heebo:wght@500&family=Lato:ital,wght@0,400;1,300&family=Open+Sans:wght@500&family=Roboto:ital@1&family=Ubuntu:wght@400;500;700&family=Varela+Round&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+nav{
+    display: flex;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+}
+nav::before{
+    content: "";
+    position: absolute;
+    background-color: rgb(3, 0, 0);
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+nav .logo{
+    margin: 5px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* color: ; */
+    font-weight: bold;
+}
+
+nav .logo img{
+    height: 50px;
+    width: 50px;
+    margin: 4px 3px;
+    cursor: pointer;
+}
+nav ul{
+    display: flex;
+    position: absolute;
+    right: 19px;
+}
+nav ul .navitem{
+    list-style: none;
+}
+nav ul .navitem a{
+    text-decoration: none;
+    margin: 2px 3px;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: rgb(25, 28, 214);
+    padding: 2px 13px;
+    display: block;
+    cursor: pointer;
+}
+nav ul .navitem a:hover{
+    background-color: red; 
+    border-radius: 23px;
+    color: #fff;
+    cursor: pointer;
+}
+nav ul .nav_btn{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+nav ul .nav_btn a{
+    text-decoration: none;
+}
+nav ul .nav_btn a button{
+    color: rgb(25, 28, 214);
+    padding: 2px 15px;
+    display: block;
+    border-radius: 23px;
+    background-color: rgba(222, 226, 226, 0);
+    font-size: 1.1rem;
+    margin: 2px 13px;
+    font-family: 'Heebo', sans-serif;
+}
+nav ul .nav_btn a button:hover{
+    background-color: red; 
+    border-radius: 23px;
+    color: #fff;
+    cursor: pointer;
+}
+#home{
+    /* border: 2px solid yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: red;
+    /* width: 100%; */
+    height: 644px; 
+}
+
+
+#home::before{
+    content: "";
+    position: absolute;
+    height: 715px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: url('../images/img5.jpg') no-repeat center center/cover;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+#home h1{
+
+    font-weight: bold;
+    /* margin: 23px 12px; */
+}
+#home p{
+    font-size: 1.3rem;
+    margin: 40px 23px;
+    color: rgb(25, 28, 214);
+    font-weight: bold;
+    font-family: 'Varela Round', sans-serif;
+}
+#home .btn{
+    background-color: rgba(128, 0, 128, 0);
+    height: 40px;
+    width: 350px;
+    border-radius: 23px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    display: block;
+    font-family: 'Heebo', sans-serif;
+    /* padding: 12px; */
+}
+#home .btn:hover{
+    background-color: red;
+    border-radius: 23px;
+    color: #fff; 
+}
+#container{
+    height: 555px;
+    width: 100%;
+    border:2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+}
+
+.container-user{
+    background-color: #0facf1;
+    margin: 32px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 12px;
+    font-weight: bold;
+}
+.left-user-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 12px;
+    /* background: #ffffff; */
+
+}
+.userbtn{
+    padding: 12px;
+    /* background: #0facf1; */
+    background-color: #ffffff;
+    color: black;
+    /* background-color: red; */
+    cursor: pointer;
+    
+    font-family: 'Open Sans', sans-serif;
+}
+.userbtn:hover{
+
+    background-color: #d4cfcf;
+    color: black;
+}
+
+
+  /* Services */
+.services-container{
+    /* display: flex; */
+    background-color:#0facf1 ;
+    height: 1250px;
+}
+.service{
+    display: flex;
+    margin: 0px 34px;
+}
+.service .box h2{
+    color: #0facf1;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.service .box p{
+    color: rgba(0, 0, 0, 0.534);
+    font-size: 1.3rem;
+    font-family: 'Varela Round', sans-serif;
+}
+.service .box{
+    /* border: 2px solid red; */
+    padding: 23px;
+    /* border-radius: 23px; */
+    margin: 7px;
+    background-color: #fff;
+}
+#about{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    height: 680px;
+    width: 95%;
+    /* border: 3px solid red; */
+    margin: 34px;
+    background-color: rgba(197, 186, 186, 0.575);
+
+}
+#about .about-details{
+    display: flex;
+    flex-direction: column;
+    /* border: 3px solid yellow; */
+    height: 444px;
+    width: 48%;
+    padding: 23px;
+    margin-left: 23px;
+}
+#about .about-details h1{
+    color: #0facf1;
+}
+#about .about-details p{
+    color: rgba(0, 0, 0, 0.527);
+    font-family: 'Varela Round', sans-serif;
+}
+#about img{
+    width: 55%;
+    height: 504px;
+    /* border: 2px solid black; */
+    /* margin-right: 23px; */
+}
+#about .about-details .about-btn{
+    background-color: rgba(255, 0, 0, 0);
+    font-size: 1.4rem;
+    display: block;
+    width: 145px;
+    height: 40px;
+    margin: 40px auto;
+    font-family: 'Heebo', sans-serif;
+}
+#about .about-details .about-btn:hover{
+    background-color: red; 
+    /* border-radius: 23px; */
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Team Information */
+
+.team{
+    margin: 9px 0px 32px 0px;
+    background-color: #0facf1;
+    height: 1100px;
+    width: 100%;
+}
+.team .team-head{
+    color: #fff;
+    padding: 40px 12px 0px 12px;
+}
+.team .team-para{
+    font-size: 1.2rem; 
+    color: #fff;
+    margin: 22px 12px;
+    padding: 12px;
+    font-family: 'Varela Round', sans-serif;
+}
+#team{
+    display: flex;
+    margin: 125px 35px;
+}
+#team .team-box{
+    /* border: 2px solid red; */
+    padding: 23px;
+    /* border-radius: 23px; */
+    margin: 7px;
+    background-color: #fff;
+    height: 100%;
+    width: 100%;
+
+}
+#team .team-box .team-img{
+    height: 50%;
+    width: 75%;
+    display: block;
+    margin: 23px auto;
+}
+#team .team-box h1{
+    font-size: 2.1rem;
+    margin: 12px;
+    color: #0facf1;
+    font-family: monospace;
+}
+#team .team-box p{
+    font-size: 1.3rem;
+    margin: 23px;
+    color: rgba(0, 0, 0, 0.5);
+    font-family: 'Varela Round', sans-serif;
+}
+
+/* Contact US */
+.contact{
+    background-color: #0facf1;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 34px 0px;
+}
+.contact .left-box{
+    /* height: 700px;
+    width: 50%; */
+    /* border: 2px solid red; */
+    width: 50%;
+    height: 600px;
+    margin: 23px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact .left-box form input{
+    /* display: flex; */
+    /* flex-direction: column; */
+    height: 40px;
+    width: 100%;
+    font-size: 1rem;
+    padding: 8px 19px;
+    /* border: none; */
+    background-color: #ffffff;
+     /* box-shadow: 23px black; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    display: block;
+    margin: 23px auto;
+    font-family: 'Varela Round', sans-serif;
+}
+.contact .left-box form #message{
+    display: block;
+    margin: auto;
+    font-size: 1rem;
+    width: 100%;
+    padding: 23px;
+    font-family: 'Varela Round', sans-serif;
+}
+.contact .left-box form #submit{
+    font-size: 1.3rem;
+    cursor: pointer;
+    font-family: 'Heebo', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+
+}
+.contact .left-box form #submit:hover{
+    background-color: red;
+    color: #ffffff;
+}
+.contact .right-box .mid-box{
+    display: block;
+    margin: auto;
+
+}
+.contact .right-box .mid-box img{
+    height: 100px;
+    width: 100%;
+}
+.contact .right-box{
+    /* border: 2px solid red; */
+    padding: 34px;
+}
+.contact .right-box .contact-logo{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 23px 12px;
+    padding: 12px;
+}
+.contact .right-box .contact-logo i{
+    padding: 9px;
+    border-radius: 16px;
+    cursor: pointer;
+    /* font-size: 1.3rem; */
+    margin: 6px;
+}
+.contact .right-box .contact-logo i:hover{
+    background-color: #ffffff;
+}
+.contact .right-box h1{
+    color: #ffffff;
+}
+
+/* Gallery */
+#gallery{
+    height: 530px;
+    width: 100%;
+    background-color: #0facf1;
+    margin: 32px 0px;
+    display: flex; 
+    padding: 13px;
+}
+#gallery .gallery-left{
+    background-color: #ffffff;
+    margin: 13px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+#gallery .gallery-left .gallery-top {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+#gallery .gallery-right{
+    /* background-color: #ffffff; */
+    margin: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#gallery .gallery-right h1{
+    color: #ffffff;
+}
+#gallery .gallery-right #gallery-btn{
+    color: black;
+    font-weight: bold;
+    font-size: 1.3rem;
+    padding: 13px;
+    cursor: pointer;
+    margin: 13px;
+    font-family: 'Heebo', sans-serif;
+}
+#gallery .gallery-right #gallery-btn:hover{
+    color: #d4cfcf;
+    color: rgba(36, 34, 34, 0.733);
+}
+
+
+/* last Appointment Box */
+#last-appointment{
+    /* border: 3px solid red; */
+    background-color: #0facf1;
+    height: 375px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+}
+#last-appointment .btn-box-appointment{
+    display: flex;
+}
+
+#last-appointment .btn-box-appointment .arrow{
+    font-size: 1.5rem;
+    height: 50px;
+    width: 50px;
+    font-weight: bold;
+    font-family: 'Heebo', sans-serif;
+    align-items: center;
+    background-color: #ffffff;
+    color: black;
+    padding: 10px;
+    margin: 60px 0px 12px 0px;
+    display: block;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+/* #last-appointment .btn-box-appointment .arrow i{
+    position: absolute;
+    bottom: 0;
+} */
+#last-appointment .btn-box-appointment .last-appointment-btn {
+    background-color: #ffffff;
+    color: black;
+    padding: 10px;
+    margin: 60px 0px 12px 0px;
+    width: 100%; 
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: 'Heebo', sans-serif;
+    
+    
+}
+#last-appointment .btn-box-appointment .last-appointment-btn:hover{
+    background-color: #d1caca;
+    cursor: pointer;
+}
+
+
+
+/* Help Line */
+.conatiner-help{
+    border: 2px solid red;
+    background-color: #0facf1;
+    margin: px 0px 23px 0px;
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.conatiner-help .help-box{
+    font-size: 17px;
+    margin: 0px 12px;
+    padding: 12px 23px;
+    color: #ffffff;
+    font-family: 'Heebo', sans-serif;
+}
+.conatiner-help .help-box a p{
+    color: black;
+    font-size: 17px;
+    margin: 8px 0px;
+}
+.conatiner-help .help-box a {
+    text-decoration: none;
+}
+.conatiner-help .help-box a:hover{
+    text-decoration: underline;
+}
+
+
+/* Raise An Issue */
+
+.issue-box{
+    margin: 16px 0px;
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    /* background-color: #0facf1; */
+    /* color: white; */
+    margin: 0px 9px;
+}
+.issue-box p{
+    font-size: 1.3rem;
+    display: block;
+    margin: 12px;
+    justify-content: center;
+    align-items: center;
+    
+    font-family: 'Heebo', sans-serif;
+}
+
+.issue-tages{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.issue-tag{
+    display: flex;
+    flex-direction: column;
+    margin: 4px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+}
+.issue{
+    font-size: 1.3rem;
+    text-decoration: none;
+    margin: 6px;
+    color: #0facf1;
+    display: flex;
+    flex-direction: row;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-family: 'Heebo', sans-serif;
+    height: 100%;
+} 
+.issue:hover{
+    text-decoration: underline;
+}
+
+
+
+/* Footer */
+footer{
+    background: black;
+    height: 300px;
+    width: 100%;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px 0px 0px;
+}
+
+.container-foot p{
+    font-size: 1.5rem;
+}
+/* Utility CLasses */
+.h1_section{
+    font-size: 2.8rem;
+    margin: 23px 12px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.center{
+    display:flex;
+    justify-content: center;
+}
+
+.imgs{
+    height: 295px;
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+.gallery-img{
+    height: 237px;
+    width: 100%;
+    padding: 8px;
+}

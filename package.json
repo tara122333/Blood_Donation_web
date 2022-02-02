@@ -1,0 +1,20 @@
+{
+  "name": "nspmtck",
+  "version": "1.0.0",
+  "description": "This is NSP Project made by Tara Chand Kumawat. Create an appointment for blood donation",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Mr. Tara Chand Kumawat",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "mongoose": "^6.1.6",
+    "nodemon": "^2.0.15",
+    "pug": "^3.0.2",
+    "slugify": "^1.6.5"
+  },
+  "devDependencies": {}
+}

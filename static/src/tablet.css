@@ -1,0 +1,46 @@
+
+
+/* Navbar */
+
+/* Home */
+
+/* Services */
+.services-container{
+    height: 1360px;
+}
+
+/* About US */
+#about{
+    height: 775px;
+}
+/* Team section */
+.team{
+    height: 700px;
+}
+.team .team-head {
+    padding: 15px 12px 0px 0px;
+    font-size: 2.2rem;
+}
+.team .team-para {
+    font-size: 1rem;
+    margin: 8px 10px;
+    padding: 1px;
+}
+
+#team {
+    margin: 27px 35px;
+}
+/* Contact us */
+
+/* Gallery */
+
+.gallery-img {
+    height: 223px;
+    width: 100%;
+    padding: 6px;
+}
+/* last Appointment */
+
+#last-appointment .last-appointment-btn {
+    width: 26%;
+}

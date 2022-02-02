@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Navbar */
+nav{
+    flex-direction: column;
+    justify-content: center;
+}
+
+nav ul {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+nav ul .navitem a {
+    font-size: 1.2rem;
+}
+
+nav ul .nav_btn a button {
+    font-size: 1rem;
+    margin: 2px 0px;
+}
+/* Home */
+.h1_section {
+    font-size: 2.2rem;
+    margin: 12px 6px;
+}
+#home .btn{
+    display: none;
+}
+#home p {
+    font-size: 1.1rem;
+    margin: 33px 6px;
+}
+
+/* Help line */
+
+
+.conatiner-help{
+    display: block;
+    margin: 9px auto;
+    /* flex-direction: column; */
+    height: 100%;
+    margin: 12px 0px;
+    width: 100%;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.conatiner-help .help-box{
+    margin: 0;
+    padding: 0;
+}  
+
+.conatiner-help .help-box h3{
+    display: block;
+    margin: 9px auto;
+    width: 200px;
+}  
+
+.conatiner-help .help-box a p{
+    display: block;
+    margin: 6px auto;
+    width: 200px;
+}
+/* Services */
+.services-container {
+    height: 100%;
+}
+.service {
+    display: flex;
+    margin: 12px 8px;
+    flex-direction: column;
+}
+.imgs {
+    height: 400px;
+}
+
+/* About US */
+
+#about {
+    margin: 6px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+#about .about-details {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    padding: 8px;
+    margin-left: 6px;
+}
+
+#about img {
+    width: 100%;
+    height: 503px;
+    padding: 23px;
+}
+/* Team section */
+.team {
+    margin: 9px 0px 9px 0px;
+    height: 100%;
+    width: 100%;
+}
+
+#team .team-box h1 {
+    font-size: 1.9rem;
+    font-family: monospace;
+}
+
+#team .team-box p {
+    font-size: 1.1rem;
+    margin: 4px;
+}
+#team {
+    margin: 12px 21px 12px 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+#team .team-box .team-img {
+    height: 50%;
+    width: 100%;
+    display: block;
+    margin: 8px auto;
+}
+/* Contact us */
+
+.contact {
+    height: 100%;
+    width: 100%;
+    margin: 23px 0px;
+    flex-direction: column-reverse;
+}
+.contact .left-box {
+    width: 100%;
+    padding: 8px;
+}
+.contact .right-box .mid-box img {
+    height: 80px;
+}
+/* Gallery */ 
+#gallery {
+    height: 100%;
+    width: 100%;
+    margin: 23px 0px;
+    display: flex;
+    padding:8px 27px 8px 1px;
+    flex-direction: column;
+}
+.gallery-img {
+    height: 80%;
+    width: 100%;
+    padding: 8px;
+}
+#gallery .gallery-left .gallery-top{
+    flex-direction: column;
+}
+
+#gallery .gallery-right #gallery-btn {
+    font-size: 1rem;
+    padding: 9px;
+}
+
+/* Issue box */
+
+
+.issue-box{
+    height: 600px;
+}
+.issue-tages{
+    flex-direction: column;
+    margin: 8px;
+}
+/* last Appointment */
+#last-appointment .last-appointment-btn {
+    width: 190px;
+}
+/* utility classes */
+
+.h1_section {
+    font-size: 1.9rem;
+    margin: 20px 6px;
+}
